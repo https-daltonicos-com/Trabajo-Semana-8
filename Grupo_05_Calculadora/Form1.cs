@@ -33,9 +33,9 @@ namespace Grupo_05_Calculadora
 
             if (rb_Suma.Checked)
             {
-                MessageBox.Show("Ejecucion no validad, por falta de codigo.");
+                /*MessageBox.Show("Ejecucion no validad, por falta de codigo.");
                 resultado = primerNumero + segundoNumero;
-                operacion = " + ";
+                operacion = " + ";*/
             }
             else if (rb_Resta.Checked)
             {
