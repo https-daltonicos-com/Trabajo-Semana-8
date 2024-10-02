@@ -43,9 +43,8 @@ namespace Grupo_05_Calculadora
             }
             else if (rb_Multiplicacion.Checked)
             {
-                MessageBox.Show("Ejecucion no validad, por falta de codigo.");
-                /*resultado = primerNumero * segundoNumero;
-                operacion = " x ";*/
+                resultado = primerNumero * segundoNumero;
+                operacion = " x ";
             }
             else if (rb_Divicion.Checked)
             {
