@@ -33,9 +33,8 @@ namespace Grupo_05_Calculadora
 
             if (rb_Suma.Checked)
             {
-                /*MessageBox.Show("Ejecucion no validad, por falta de codigo.");
                 resultado = primerNumero + segundoNumero;
-                operacion = " + ";*/
+                operacion = " + ";
             }
             else if (rb_Resta.Checked)
             {
@@ -78,8 +77,7 @@ namespace Grupo_05_Calculadora
 
             lb_Resultado.Text = resultado.ToString();
 
-            //string operacionHistorial = $"Operación: {primerNumero} {operacion} {segundoNumero}  =  {resultado}";
-            string operacionHistorial = "No signal: ";
+            string operacionHistorial = $"Operación: {primerNumero} {operacion} {segundoNumero}  =  {resultado}";
             historial.Add(operacionHistorial);
 
             lst_Historial.Items.Add(operacionHistorial);
