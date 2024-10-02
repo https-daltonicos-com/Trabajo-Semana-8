@@ -62,9 +62,9 @@ namespace Grupo_05_Calculadora
             }
             else if (rb_Potencia.Checked)
             {
-                MessageBox.Show("Ejecucion no validad, por falta de codigo.");
-                /*resultado = Math.Pow(primerNumero, segundoNumero);
-                operacion = " ^ ";*/
+      
+                resultado = Math.Pow(primerNumero, segundoNumero);
+                operacion = " ^ ";
             }
             else if (rb_Porcentaje.Checked)
             {
