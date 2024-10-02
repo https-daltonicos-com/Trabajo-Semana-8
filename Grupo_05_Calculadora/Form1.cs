@@ -68,9 +68,9 @@ namespace Grupo_05_Calculadora
             }
             else if (rb_Porcentaje.Checked)
             {
-                MessageBox.Show("Ejecucion no validad, por falta de codigo.");
-                /*resultado = (primerNumero * segundoNumero) / 100;
-                operacion = " % ";*/
+               
+                resultado = (primerNumero * segundoNumero) / 100;
+                operacion = " % ";
             }
 
             lb_Resultado.Text = resultado.ToString();
