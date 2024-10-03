@@ -30,22 +30,25 @@ namespace Grupo_05_Calculadora
             }
 
             string operacion = "";
-
+            /* Suma */
             if (rb_Suma.Checked)
             {
                 resultado = primerNumero + segundoNumero;
                 operacion = " + ";
             }
+            /* Resta */
             else if (rb_Resta.Checked)
             {
                 resultado = primerNumero - segundoNumero;
                 operacion = " - ";
             }
+            /* multiplicaciòn*/
             else if (rb_Multiplicacion.Checked)
             {
                 resultado = primerNumero * segundoNumero;
                 operacion = " x ";
             }
+            /* divisiòn*/ 
             else if (rb_Divicion.Checked)
             {
          
@@ -60,12 +63,14 @@ namespace Grupo_05_Calculadora
                     return;
                 }
             }
+            /* potencia */
             else if (rb_Potencia.Checked)
             {
       
                 resultado = Math.Pow(primerNumero, segundoNumero);
                 operacion = " ^ ";
             }
+            /* porcentaje */
             else if (rb_Porcentaje.Checked)
             {
                
@@ -88,7 +93,7 @@ namespace Grupo_05_Calculadora
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            /* hola
+            
         }
     }
 }
